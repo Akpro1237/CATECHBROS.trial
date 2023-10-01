@@ -1,0 +1,1969 @@
+
+@media (min-width: 1200px) {
+
+    .custom-button {
+
+        background-color: #3498db; /* Blue background color */
+        color: white; /* White text color */
+        padding: 10px 20px; /* Padding around the text */
+        border: none; /* Remove the default button border */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer; /* Add a pointer cursor on hover */
+        font-size: 16px; /* Font size */
+        position: relative;
+              left: 650px; /* Adjust the value to move the image horizontally */
+              top: 2100px; /* Adjust the value to move the image vertically */
+      }
+    
+      /* Style the button on hover */
+      .custom-button:hover {
+        background-color: #2980b9; /* Darker blue background color on hover */
+      }
+      
+    
+         
+        
+    
+    
+    
+    
+    
+          .image {
+              position: relative;
+              left: 350px; /* Adjust the value to move the image horizontally */
+              bottom:100px; /* Adjust the value to move the image vertically */
+          }
+    
+    
+    
+    
+    
+    
+    
+    
+          .scroll-down {
+              position: absolute;
+              top: 400px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 0;
+              height: 0;
+              border-left: 10px solid transparent;
+              border-right: 10px solid transparent;
+              border-top: 20px solid #333; /* Arrow color */
+              cursor: pointer;
+              animation: bounce 2s infinite; /* Optional bounce animation */
+          }
+    
+          /* Optional bounce animation */
+          @keyframes bounce {
+              0%, 20%, 50%, 80%, 100% {
+                  transform: translateY(0);
+              }
+              40% {
+                  transform: translateY(-10px);
+              }
+              60% {
+                  transform: translateY(-5px);
+              }
+          }
+          
+    
+    
+    
+          .scroll-down1 {
+              position: absolute;
+              top: 350px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 0;
+              height: 0;
+              border-left: 10px solid transparent;
+              border-right: 10px solid transparent;
+              border-top: 20px solid #333; /* Arrow color */
+              cursor: pointer;
+              animation: bounce 2s infinite; /* Optional bounce animation */
+          }
+    
+          /* Optional bounce animation */
+          @keyframes bounce {
+              0%, 20%, 50%, 80%, 100% {
+                  transform: translateY(0);
+              }
+              40% {
+                  transform: translateY(-10px);
+              }
+              60% {
+                  transform: translateY(-5px);
+              }
+          }
+          
+    
+    
+    
+    
+    
+          .scroll-down2 {
+              position: absolute;
+              top: 300px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 0;
+              height: 0;
+              border-left: 10px solid transparent;
+              border-right: 10px solid transparent;
+              border-top: 20px solid #333; /* Arrow color */
+              cursor: pointer;
+              animation: bounce 2s infinite; /* Optional bounce animation */
+          }
+    
+          /* Optional bounce animation */
+          @keyframes bounce {
+              0%, 20%, 50%, 80%, 100% {
+                  transform: translateY(0);
+              }
+              40% {
+                  transform: translateY(-10px);
+              }
+              60% {
+                  transform: translateY(-5px);
+              }
+          }
+    
+    
+          
+          .scroll-down3 {
+              position: absolute;
+              top: 250px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 0;
+              height: 0;
+              border-left: 10px solid transparent;
+              border-right: 10px solid transparent;
+              border-top: 20px solid #333; /* Arrow color */
+              cursor: pointer;
+              animation: bounce 2s infinite; /* Optional bounce animation */
+          }
+    
+          /* Optional bounce animation */
+          @keyframes bounce {
+              0%, 20%, 50%, 80%, 100% {
+                  transform: translateY(0);
+              }
+              40% {
+                  transform: translateY(-10px);
+              }
+              60% {
+                  transform: translateY(-5px);
+              }
+          }
+    
+          
+    
+    
+    
+          .positioned-text {
+              position: absolute;
+              top: 400px; /* Adjust the top position in pixels */
+              left: 51.5%; /* Center the text horizontally */
+              transform: translateX(-50%); /* Center the text horizontally */
+              font-size: 24px;
+              color: #333;
+          }
+    
+    
+    
+    
+    
+    
+    
+          .scroll-down4 {
+              position: absolute;
+              top: 800px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 0;
+              height: 0;
+              border-left: 10px solid transparent;
+              border-right: 10px solid transparent;
+              border-top: 20px solid #333; /* Arrow color */
+              cursor: pointer;
+              animation: bounce 2s infinite; /* Optional bounce animation */
+          }
+    
+          /* Optional bounce animation */
+          @keyframes bounce {
+              0%, 20%, 50%, 80%, 100% {
+                  transform: translateY(0);
+              }
+              40% {
+                  transform: translateY(-10px);
+              }
+              60% {
+                  transform: translateY(-5px);
+              }
+          }
+          
+    
+    
+    
+          .scroll-down5 {
+              position: absolute;
+              top: 850px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 0;
+              height: 0;
+              border-left: 10px solid transparent;
+              border-right: 10px solid transparent;
+              border-top: 20px solid #333; /* Arrow color */
+              cursor: pointer;
+              animation: bounce 2s infinite; /* Optional bounce animation */
+          }
+    
+          /* Optional bounce animation */
+          @keyframes bounce {
+              0%, 20%, 50%, 80%, 100% {
+                  transform: translateY(0);
+              }
+              40% {
+                  transform: translateY(-10px);
+              }
+              60% {
+                  transform: translateY(-5px);
+              }
+          }
+          
+    
+    
+    
+    
+    
+          .scroll-down6 {
+              position: absolute;
+              top: 900px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 0;
+              height: 0;
+              border-left: 10px solid transparent;
+              border-right: 10px solid transparent;
+              border-top: 20px solid #333; /* Arrow color */
+              cursor: pointer;
+              animation: bounce 2s infinite; /* Optional bounce animation */
+          }
+    
+          /* Optional bounce animation */
+          @keyframes bounce {
+              0%, 20%, 50%, 80%, 100% {
+                  transform: translateY(0);
+              }
+              40% {
+                  transform: translateY(-10px);
+              }
+              60% {
+                  transform: translateY(-5px);
+              }
+          }
+    
+    
+          
+          .scroll-down7 {
+              position: absolute;
+              top: 950px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 0;
+              height: 0;
+              border-left: 10px solid transparent;
+              border-right: 10px solid transparent;
+              border-top: 20px solid #333; /* Arrow color */
+              cursor: pointer;
+              animation: bounce 2s infinite; /* Optional bounce animation */
+          }
+    
+          /* Optional bounce animation */
+          @keyframes bounce {
+              0%, 20%, 50%, 80%, 100% {
+                  transform: translateY(0);
+              }
+              40% {
+                  transform: translateY(-10px);
+              }
+              60% {
+                  transform: translateY(-5px);
+              }
+          }
+    
+          
+    
+    
+    
+          .positioned-text1 {
+              position: absolute;
+              top: 952px; /* Adjust the top position in pixels */
+              left: 51.5%; /* Center the text horizontally */
+              transform: translateX(-50%); /* Center the text horizontally */
+              font-size: 24px;
+              color: #333;
+          }
+    
+    
+    
+    
+    
+    
+          .scroll-down8 {
+              position: absolute;
+              top: 1450px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 0;
+              height: 0;
+              border-left: 10px solid transparent;
+              border-right: 10px solid transparent;
+              border-top: 20px solid #333; /* Arrow color */
+              cursor: pointer;
+              animation: bounce 2s infinite; /* Optional bounce animation */
+          }
+    
+          /* Optional bounce animation */
+          @keyframes bounce {
+              0%, 20%, 50%, 80%, 100% {
+                  transform: translateY(0);
+              }
+              40% {
+                  transform: translateY(-10px);
+              }
+              60% {
+                  transform: translateY(-5px);
+              }
+          }
+          
+    
+    
+    
+          .scroll-down9 {
+              position: absolute;
+              top: 1500px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 0;
+              height: 0;
+              border-left: 10px solid transparent;
+              border-right: 10px solid transparent;
+              border-top: 20px solid #333; /* Arrow color */
+              cursor: pointer;
+              animation: bounce 2s infinite; /* Optional bounce animation */
+          }
+    
+          /* Optional bounce animation */
+          @keyframes bounce {
+              0%, 20%, 50%, 80%, 100% {
+                  transform: translateY(0);
+              }
+              40% {
+                  transform: translateY(-10px);
+              }
+              60% {
+                  transform: translateY(-5px);
+              }
+          }
+          
+    
+    
+    
+    
+    
+          .scroll-down10 {
+              position: absolute;
+              top: 1550px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 0;
+              height: 0;
+              border-left: 10px solid transparent;
+              border-right: 10px solid transparent;
+              border-top: 20px solid #333; /* Arrow color */
+              cursor: pointer;
+              animation: bounce 2s infinite; /* Optional bounce animation */
+          }
+    
+          /* Optional bounce animation */
+          @keyframes bounce {
+              0%, 20%, 50%, 80%, 100% {
+                  transform: translateY(0);
+              }
+              40% {
+                  transform: translateY(-10px);
+              }
+              60% {
+                  transform: translateY(-5px);
+              }
+          }
+    
+    
+          
+          .scroll-down11 {
+              position: absolute;
+              top: 1600px;
+              left: 50%;
+              transform: translateX(-50%);
+              width: 0;
+              height: 0;
+              border-left: 10px solid transparent;
+              border-right: 10px solid transparent;
+              border-top: 20px solid #333; /* Arrow color */
+              cursor: pointer;
+              animation: bounce 2s infinite; /* Optional bounce animation */
+          }
+    
+          /* Optional bounce animation */
+          @keyframes bounce {
+              0%, 20%, 50%, 80%, 100% {
+                  transform: translateY(0);
+              }
+              40% {
+                  transform: translateY(-10px);
+              }
+              60% {
+                  transform: translateY(-5px);
+              }
+          }
+    
+          
+    
+    
+    
+          .positioned-text2 {
+              position: absolute;
+              top: 1602px; /* Adjust the top position in pixels */
+              left: 51.5%; /* Center the text horizontally */
+              transform: translateX(-50%); /* Center the text horizontally */
+              font-size: 24px;
+              color: #333;
+          }
+    
+      
+     
+      
+      
+    .GoodWibesLED{
+        position: relative;
+        
+        right: 40px;
+        bottom: -300px;
+        
+        width:15% ;
+        height: 15%";
+        
+        
+        }
+        
+        
+        
+        
+        
+        
+        .ringlight{
+        position: relative;
+        
+        right: 755px;
+        bottom: -300px;
+        width:15% ;
+        height: 15%";
+        
+        
+        
+        }
+        
+        
+        .mic{
+        position: relative;
+        
+        right: -365px;
+        bottom: 40px;;
+        width:15% ;
+        height: 15%";
+        }
+        
+        
+        
+        .audiocable{
+        position: relative;
+        
+        right: -100px;
+        bottom: 40px;
+        width:15% ;
+        height: 15%";
+        }
+        
+        
+        
+        
+        
+        .tripord {
+        
+        position: relative;
+        
+        right: 140px;
+        bottom: 40px;
+        width:15% ;
+        height: 15%";
+        }
+        
+        
+        body {
+            background-color:yellowgreen;
+        }
+        
+        
+        
+        
+        
+        .attractive-text {
+                    background: linear-gradient(to bottom, #0a0a0a, #0a0a0a); /* Gradient background */
+                    color: white; /* Text color */
+                    font-weight: bold; /* Bold font */
+                    font-size: 24px; /* Font size */
+                    padding: 10px; /* Padding around text */
+                    border-radius: 10px; /* Rounded corners */
+                    text-align: center; /* Center text horizontally */
+                    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+                    position: relative;
+                    left:20px;
+                    top: -250px;
+                }
+        
+        
+        
+        
+        .countdown-text {
+                    font-size: 36px;
+                    font-weight: bold;
+                    color: #333;
+                    animation: fade 1s linear infinite;
+                    position: relative;
+                    left:520px;
+                    top: 450px;
+               
+                }
+        
+                /* Keyframes for fade-in and fade-out effect */
+                @keyframes fade {
+                    0%, 100% {
+                        opacity: 1;
+                    }
+                    50% {
+                        opacity: 0.4;
+                    }
+                }
+        
+        
+        
+        .attractive-button {
+                    display: inline-block;
+                    padding: 12px 24px;
+                    background-color: #ff5722; /* Change the background color as desired */
+                    color: #fff; /* Text color */
+                    font-size: 16px;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    transition: background-color 0.3s, transform 0.3s;
+                    position: relative;
+                    left: 615px;
+                    top: 350px;
+        
+                }
+        
+                /* Hover effect */
+                .attractive-button:hover {
+                    background-color: #e64a19; /* Change the hover background color */
+                    transform: scale(1.05); /* Add a slight zoom effect on hover */
+                }
+        
+        
+        
+        
+        
+                .buy-now-link {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    background-color: #007bff; /* Blue background color */
+                    color: #fff; /* Text color */
+                    text-decoration: none; /* Remove underline */
+                    border-radius: 5px; /* Rounded corners */
+                    font-weight: bold; /* Bold text */
+                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
+                    transition: background-color 0.3s ease; /* Smooth hover effect */
+                    position: relative;
+                    top : -15px;
+                    left : -1120px;
+        
+        
+                }
+        
+                /* Hover effect for the Buy Now link */
+                .buy-now-link:hover {
+                    background-color: #0056b3; /* Darker blue on hover */
+                }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                .buy-now-link1 {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    background-color: #007bff; /* Blue background color */
+                    color: #fff; /* Text color */
+                    text-decoration: none; /* Remove underline */
+                    border-radius: 5px; /* Rounded corners */
+                    font-weight: bold; /* Bold text */
+                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
+                    transition: background-color 0.3s ease; /* Smooth hover effect */
+                    position: relative;
+                    top : -55px;
+                    right :-515px;
+        
+        
+                }
+        
+                /* Hover effect for the Buy Now link */
+                .buy-now-link1:hover {
+                    background-color: #0056b3; /* Darker blue on hover */
+                }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+               .text {
+                    font-family: 'Verdana', sans-serif;
+                    font-size: 36px;
+                    color: #FF5733; /* Text color */
+                    text-align: center;
+                    background-image: linear-gradient(45deg, #ff416c, #ff4b2b); /* Gradient background */
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    text-shadow: 2px 2px 4px #333; /* Shadow effect */
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                    animation: textAnimation 2s infinite alternate; /* Animation */
+                    position: relative;
+                    top : 500px;
+                    right : 555px;
+        
+                }
+        
+                @keyframes textAnimation {
+                    0% {
+                        transform: scale(0.2);
+                    }
+                    100% {
+                        transform: scale(0.29);
+                    }
+                }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                .text1 {
+                    font-family: 'Verdana', sans-serif;
+                    font-size: 36px;
+                    color: #FF5733; /* Text color */
+                    text-align: center;
+                    background-image: linear-gradient(45deg, #ff416c, #ff4b2b); /* Gradient background */
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    text-shadow: 2px 2px 4px #333; /* Shadow effect */
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                    animation: textAnimation 2s infinite alternate; /* Animation */
+                    position: relative;
+                    top : 380px;
+                    right : 100px;
+        
+                }
+        
+                @keyframes textAnimation {
+                    0% {
+                        transform: scale(0.2);
+                    }
+                    100% {
+                        transform: scale(0.29);
+                    }
+                }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+                .buy-now-link2 {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    background-color: #007bff; /* Blue background color */
+                    color: #fff; /* Text color */
+                    text-decoration: none; /* Remove underline */
+                    border-radius: 5px; /* Rounded corners */
+                    font-weight: bold; /* Bold text */
+                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
+                    transition: background-color 0.3s ease; /* Smooth hover effect */
+                    position: relative;
+                    top : -50px;
+                    right : -880px;
+        
+        
+                }
+        
+                /* Hover effect for the Buy Now link */
+                .buy-now-link2:hover {
+                    background-color: #0056b3 /* Darker blue on hover */
+                }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+               .text2 {
+                    font-family: 'Verdana', sans-serif;
+                    font-size: 36px;
+                    color: #FF5733; /* Text color */
+                    text-align: center;
+                    background-image: linear-gradient(45deg, #ff416c, #ff4b2b); /* Gradient background */
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    text-shadow: 2px 2px 4px #333; /* Shadow effect */
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                    animation: textAnimation 2s infinite alternate; /* Animation */
+                    position: relative;
+                    top : 260px;
+                    right : -355px;
+        
+                }
+        
+                @keyframes textAnimation {
+                    0% {
+                        transform: scale(0.2);
+                    }
+                    100% {
+                        transform: scale(0.29);
+                    }
+                }
+        
+        
+        
+        
+                   .text3 {
+                    font-family: 'Verdana', sans-serif;
+                    font-size: 36px;
+                    color: #FF5733; /* Text color */
+                    text-align: center;
+                    background-image: linear-gradient(45deg, #ff416c, #ff4b2b); /* Gradient background */
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    text-shadow: 2px 2px 4px #333; /* Shadow effect */
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                    animation: textAnimation 2s infinite alternate; /* Animation */
+                    position: relative;
+                    top : 470px;
+                    right :555px;
+        
+                }
+        
+                @keyframes textAnimation {
+                    0% {
+                        transform: scale(0.2);
+                    }
+                    100% {
+                        transform: scale(0.29);
+                    }
+                }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+            .buy-now-link3 {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    background-color: #007bff; /* Blue background color */
+                    color: #fff; /* Text color */
+                    text-decoration: none; /* Remove underline */
+                    border-radius: 5px; /* Rounded corners */
+                    font-weight: bold; /* Bold text */
+                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
+                    transition: background-color 0.3s ease; /* Smooth hover effect */
+                    position: relative;
+                    top : 290px;
+                    left : -155px;
+        
+        
+                }
+        
+                /* Hover effect for the Buy Now link */
+                .buy-now-link3:hover {
+                    background-color: #0056b3 /* Darker blue on hover */
+                }
+        
+        
+        
+        
+        
+        
+        
+        
+                .buy-now-link4 {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    background-color: #007bff; /* Blue background color */
+                    color: #fff; /* Text color */
+                    text-decoration: none; /* Remove underline */
+                    border-radius: 5px; /* Rounded corners */
+                    font-weight: bold; /* Bold text */
+                    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
+                    transition: background-color 0.3s ease; /* Smooth hover effect */
+                    position: relative;
+                    top : 290px;
+                    left : 665px;
+        
+        
+                }
+        
+                /* Hover effect for the Buy Now link */
+                .buy-now-link4:hover {
+                    background-color: #0056b3 /* Darker blue on hover */
+                }
+        
+        
+        
+        
+        
+                .text4 {
+                    font-family: 'Verdana', sans-serif;
+                    font-size: 36px;
+                    color: #FF5733; /* Text color */
+                    text-align: center;
+                    background-image: linear-gradient(45deg, #ff416c, #ff4b2b); /* Gradient background */
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    text-shadow: 2px 2px 4px #333; /* Shadow effect */
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                    animation: textAnimation 2s infinite alternate; /* Animation */
+                    position: relative;
+                    top : 350px;
+                    right :-355px;
+        
+                }
+        
+                @keyframes textAnimation {
+                    0% {
+                        transform: scale(0.2);
+                    }
+                    100% {
+                        transform: scale(0.29);
+                    }
+                }
+        
+        
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            @media (max-width: 480px) {
+    
+
+
+
+                .custom-button {
+
+                    background-color: #3498db; /* Blue background color */
+                    color: white; /* White text color */
+                    padding: 10px 20px; /* Padding around the text */
+                    border: none; /* Remove the default button border */
+                    border-radius: 5px; /* Rounded corners */
+                    cursor: pointer; /* Add a pointer cursor on hover */
+                    font-size: 16px; /* Font size */
+                    position: relative;
+                          left: 190px; /* Adjust the value to move the image horizontally */
+                          top: 2100px; /* Adjust the value to move the image vertically */
+                  }
+                
+                  /* Style the button on hover */
+                  .custom-button:hover {
+                    background-color: #2980b9; /* Darker blue background color on hover */
+                  }
+                  
+                
+                     
+                    
+                
+                
+                
+                
+                
+                      .image {
+                          position: relative;
+                          left: 350px; /* Adjust the value to move the image horizontally */
+                          bottom:100px; /* Adjust the value to move the image vertically */
+                      }
+                
+                
+                
+                
+                
+                
+                
+                
+                      .scroll-down {
+                          position: absolute;
+                          top: 400px;
+                          left: 50%;
+                          transform: translateX(-50%);
+                          width: 0;
+                          height: 0;
+                          border-left: 10px solid transparent;
+                          border-right: 10px solid transparent;
+                          border-top: 20px solid #333; /* Arrow color */
+                          cursor: pointer;
+                          animation: bounce 2s infinite; /* Optional bounce animation */
+                      }
+                
+                      /* Optional bounce animation */
+                      @keyframes bounce {
+                          0%, 20%, 50%, 80%, 100% {
+                              transform: translateY(0);
+                          }
+                          40% {
+                              transform: translateY(-10px);
+                          }
+                          60% {
+                              transform: translateY(-5px);
+                          }
+                      }
+                      
+                
+                
+                
+                      .scroll-down1 {
+                          position: absolute;
+                          top: 350px;
+                          left: 50%;
+                          transform: translateX(-50%);
+                          width: 0;
+                          height: 0;
+                          border-left: 10px solid transparent;
+                          border-right: 10px solid transparent;
+                          border-top: 20px solid #333; /* Arrow color */
+                          cursor: pointer;
+                          animation: bounce 2s infinite; /* Optional bounce animation */
+                      }
+                
+                      /* Optional bounce animation */
+                      @keyframes bounce {
+                          0%, 20%, 50%, 80%, 100% {
+                              transform: translateY(0);
+                          }
+                          40% {
+                              transform: translateY(-10px);
+                          }
+                          60% {
+                              transform: translateY(-5px);
+                          }
+                      }
+                      
+                
+                
+                
+                
+                
+                      .scroll-down2 {
+                          position: absolute;
+                          top: 300px;
+                          left: 50%;
+                          transform: translateX(-50%);
+                          width: 0;
+                          height: 0;
+                          border-left: 10px solid transparent;
+                          border-right: 10px solid transparent;
+                          border-top: 20px solid #333; /* Arrow color */
+                          cursor: pointer;
+                          animation: bounce 2s infinite; /* Optional bounce animation */
+                      }
+                
+                      /* Optional bounce animation */
+                      @keyframes bounce {
+                          0%, 20%, 50%, 80%, 100% {
+                              transform: translateY(0);
+                          }
+                          40% {
+                              transform: translateY(-10px);
+                          }
+                          60% {
+                              transform: translateY(-5px);
+                          }
+                      }
+                
+                
+                      
+                      .scroll-down3 {
+                          position: absolute;
+                          top: 250px;
+                          left: 50%;
+                          transform: translateX(-50%);
+                          width: 0;
+                          height: 0;
+                          border-left: 10px solid transparent;
+                          border-right: 10px solid transparent;
+                          border-top: 20px solid #333; /* Arrow color */
+                          cursor: pointer;
+                          animation: bounce 2s infinite; /* Optional bounce animation */
+                      }
+                
+                      /* Optional bounce animation */
+                      @keyframes bounce {
+                          0%, 20%, 50%, 80%, 100% {
+                              transform: translateY(0);
+                          }
+                          40% {
+                              transform: translateY(-10px);
+                          }
+                          60% {
+                              transform: translateY(-5px);
+                          }
+                      }
+                
+                      
+                
+                
+                
+                      .positioned-text {
+                          position: absolute;
+                          top: 400px; /* Adjust the top position in pixels */
+                          left: 51.5%; /* Center the text horizontally */
+                          transform: translateX(-50%); /* Center the text horizontally */
+                          font-size: 24px;
+                          color: #333;
+                      }
+                
+                
+                
+                
+                
+                
+                
+                      .scroll-down4 {
+                          position: absolute;
+                          top: 800px;
+                          left: 50%;
+                          transform: translateX(-50%);
+                          width: 0;
+                          height: 0;
+                          border-left: 10px solid transparent;
+                          border-right: 10px solid transparent;
+                          border-top: 20px solid #333; /* Arrow color */
+                          cursor: pointer;
+                          animation: bounce 2s infinite; /* Optional bounce animation */
+                      }
+                
+                      /* Optional bounce animation */
+                      @keyframes bounce {
+                          0%, 20%, 50%, 80%, 100% {
+                              transform: translateY(0);
+                          }
+                          40% {
+                              transform: translateY(-10px);
+                          }
+                          60% {
+                              transform: translateY(-5px);
+                          }
+                      }
+                      
+                
+                
+                
+                      .scroll-down5 {
+                          position: absolute;
+                          top: 850px;
+                          left: 50%;
+                          transform: translateX(-50%);
+                          width: 0;
+                          height: 0;
+                          border-left: 10px solid transparent;
+                          border-right: 10px solid transparent;
+                          border-top: 20px solid #333; /* Arrow color */
+                          cursor: pointer;
+                          animation: bounce 2s infinite; /* Optional bounce animation */
+                      }
+                
+                      /* Optional bounce animation */
+                      @keyframes bounce {
+                          0%, 20%, 50%, 80%, 100% {
+                              transform: translateY(0);
+                          }
+                          40% {
+                              transform: translateY(-10px);
+                          }
+                          60% {
+                              transform: translateY(-5px);
+                          }
+                      }
+                      
+                
+                
+                
+                
+                
+                      .scroll-down6 {
+                          position: absolute;
+                          top: 900px;
+                          left: 50%;
+                          transform: translateX(-50%);
+                          width: 0;
+                          height: 0;
+                          border-left: 10px solid transparent;
+                          border-right: 10px solid transparent;
+                          border-top: 20px solid #333; /* Arrow color */
+                          cursor: pointer;
+                          animation: bounce 2s infinite; /* Optional bounce animation */
+                      }
+                
+                      /* Optional bounce animation */
+                      @keyframes bounce {
+                          0%, 20%, 50%, 80%, 100% {
+                              transform: translateY(0);
+                          }
+                          40% {
+                              transform: translateY(-10px);
+                          }
+                          60% {
+                              transform: translateY(-5px);
+                          }
+                      }
+                
+                
+                      
+                      .scroll-down7 {
+                          position: absolute;
+                          top: 950px;
+                          left: 50%;
+                          transform: translateX(-50%);
+                          width: 0;
+                          height: 0;
+                          border-left: 10px solid transparent;
+                          border-right: 10px solid transparent;
+                          border-top: 20px solid #333; /* Arrow color */
+                          cursor: pointer;
+                          animation: bounce 2s infinite; /* Optional bounce animation */
+                      }
+                
+                      /* Optional bounce animation */
+                      @keyframes bounce {
+                          0%, 20%, 50%, 80%, 100% {
+                              transform: translateY(0);
+                          }
+                          40% {
+                              transform: translateY(-10px);
+                          }
+                          60% {
+                              transform: translateY(-5px);
+                          }
+                      }
+                
+                      
+                
+                
+                
+                      .positioned-text1 {
+                          position: absolute;
+                          top: 952px; /* Adjust the top position in pixels */
+                          left: 51.5%; /* Center the text horizontally */
+                          transform: translateX(-50%); /* Center the text horizontally */
+                          font-size: 24px;
+                          color: #333;
+                      }
+                
+                
+                
+                
+                
+                
+                      .scroll-down8 {
+                          position: absolute;
+                          top: 1450px;
+                          left: 50%;
+                          transform: translateX(-50%);
+                          width: 0;
+                          height: 0;
+                          border-left: 10px solid transparent;
+                          border-right: 10px solid transparent;
+                          border-top: 20px solid #333; /* Arrow color */
+                          cursor: pointer;
+                          animation: bounce 2s infinite; /* Optional bounce animation */
+                      }
+                
+                      /* Optional bounce animation */
+                      @keyframes bounce {
+                          0%, 20%, 50%, 80%, 100% {
+                              transform: translateY(0);
+                          }
+                          40% {
+                              transform: translateY(-10px);
+                          }
+                          60% {
+                              transform: translateY(-5px);
+                          }
+                      }
+                      
+                
+                
+                
+                      .scroll-down9 {
+                          position: absolute;
+                          top: 1500px;
+                          left: 50%;
+                          transform: translateX(-50%);
+                          width: 0;
+                          height: 0;
+                          border-left: 10px solid transparent;
+                          border-right: 10px solid transparent;
+                          border-top: 20px solid #333; /* Arrow color */
+                          cursor: pointer;
+                          animation: bounce 2s infinite; /* Optional bounce animation */
+                      }
+                
+                      /* Optional bounce animation */
+                      @keyframes bounce {
+                          0%, 20%, 50%, 80%, 100% {
+                              transform: translateY(0);
+                          }
+                          40% {
+                              transform: translateY(-10px);
+                          }
+                          60% {
+                              transform: translateY(-5px);
+                          }
+                      }
+                      
+                
+                
+                
+                
+                
+                      .scroll-down10 {
+                          position: absolute;
+                          top: 1550px;
+                          left: 50%;
+                          transform: translateX(-50%);
+                          width: 0;
+                          height: 0;
+                          border-left: 10px solid transparent;
+                          border-right: 10px solid transparent;
+                          border-top: 20px solid #333; /* Arrow color */
+                          cursor: pointer;
+                          animation: bounce 2s infinite; /* Optional bounce animation */
+                      }
+                
+                      /* Optional bounce animation */
+                      @keyframes bounce {
+                          0%, 20%, 50%, 80%, 100% {
+                              transform: translateY(0);
+                          }
+                          40% {
+                              transform: translateY(-10px);
+                          }
+                          60% {
+                              transform: translateY(-5px);
+                          }
+                      }
+                
+                
+                      
+                      .scroll-down11 {
+                          position: absolute;
+                          top: 1600px;
+                          left: 50%;
+                          transform: translateX(-50%);
+                          width: 0;
+                          height: 0;
+                          border-left: 10px solid transparent;
+                          border-right: 10px solid transparent;
+                          border-top: 20px solid #333; /* Arrow color */
+                          cursor: pointer;
+                          animation: bounce 2s infinite; /* Optional bounce animation */
+                      }
+                
+                      /* Optional bounce animation */
+                      @keyframes bounce {
+                          0%, 20%, 50%, 80%, 100% {
+                              transform: translateY(0);
+                          }
+                          40% {
+                              transform: translateY(-10px);
+                          }
+                          60% {
+                              transform: translateY(-5px);
+                          }
+                      }
+                
+                      
+                
+                
+                
+                      .positioned-text2 {
+                          position: absolute;
+                          top: 1602px; /* Adjust the top position in pixels */
+                          left: 51.5%; /* Center the text horizontally */
+                          transform: translateX(-50%); /* Center the text horizontally */
+                          font-size: 24px;
+                          color: #333;
+                      }
+                
+                  
+                 
+                  
+                  
+                .GoodWibesLED{
+                    position: relative;
+                    
+                    right: -130px;
+                    bottom: 350px;
+                    
+                    width:25% ;
+                    height: 25%";
+                    
+                    
+                    }
+                    
+                    
+                    
+                    
+                    
+                    
+                    .ringlight{
+                    position: relative;
+                    
+                    right: 102px;
+                    bottom: 350px;
+                    width:25% ;
+                    height: 25%";
+                    
+                    
+                    
+                    }
+                    
+                    
+                    .mic{
+                    position: relative;
+                    
+                    right: -365px;
+                    bottom: 535px;;
+                    width:25% ;
+                    height: 25%";
+                    }
+                    
+                    
+                    
+                    .audiocable{
+                    position: relative;
+                    
+                    right: 80px;
+                    bottom: 400px;
+                    width:25% ;
+                    height: 25%";
+                    }
+                    
+                    
+                    
+                    
+                    
+                    .tripord {
+                    
+                    position: relative;
+                    
+                    right: 140px;
+                    bottom: 400px;
+                    width:25% ;
+                    height: 25% ;
+                    }
+                    
+                    
+                    body {
+                        background-color:yellowgreen;
+                    }
+                    
+                    
+                    
+                    
+                    
+                    .attractive-text {
+                                background: linear-gradient(to bottom, #0a0a0a, #0a0a0a); /* Gradient background */
+                                color: white; /* Text color */
+                                font-weight: bold; /* Bold font */
+                                font-size: 24px; /* Font size */
+                                padding: 10px; /* Padding around text */
+                                border-radius: 10px; /* Rounded corners */
+                                text-align: center; /* Center text horizontally */
+                                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+                                position: relative;
+                                left:20px;
+                                top: -450px;
+                            }
+                    
+                    
+                    
+                    
+                    .countdown-text {
+                                font-size: 36px;
+                                font-weight: bold;
+                                color: #333;
+                                animation: fade 1s linear infinite;
+                                position: relative;
+                                left:90px;
+                                top: 50px;
+                           
+                            }
+                    
+                            /* Keyframes for fade-in and fade-out effect */
+                            @keyframes fade {
+                                0%, 100% {
+                                    opacity: 1;
+                                }
+                                50% {
+                                    opacity: 0.4;
+                                }
+                            }
+                    
+                    
+                    
+                    .attractive-button {
+                                display: inline-block;
+                                padding: 12px 24px;
+                                background-color: #ff5722; /* Change the background color as desired */
+                                color: #fff; /* Text color */
+                                font-size: 16px;
+                                border: none;
+                                border-radius: 4px;
+                                cursor: pointer;
+                                transition: background-color 0.3s, transform 0.3s;
+                                position: relative;
+                                left: 180px;
+                                top: -300px;
+                    
+                            }
+                    
+                            /* Hover effect */
+                            .attractive-button:hover {
+                                background-color: #e64a19; /* Change the hover background color */
+                                transform: scale(1.05); /* Add a slight zoom effect on hover */
+                            }
+                    
+                    
+                    
+                    
+                    
+                            .buy-now-link {
+                                display: inline-block;
+                                padding: 10px 20px;
+                                background-color: #007bff; /* Blue background color */
+                                color: #fff; /* Text color */
+                                text-decoration: none; /* Remove underline */
+                                border-radius: 5px; /* Rounded corners */
+                                font-weight: bold; /* Bold text */
+                                box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
+                                transition: background-color 0.3s ease; /* Smooth hover effect */
+                                position: relative;
+                                top : -515px;
+                                left : -340px;
+                    
+                    
+                            }
+                    
+                            /* Hover effect for the Buy Now link */
+                            .buy-now-link:hover {
+                                background-color: #0056b3; /* Darker blue on hover */
+                            }
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                            .buy-now-link1 {
+                                display: inline-block;
+                                padding: 10px 20px;
+                                background-color: #007bff; /* Blue background color */
+                                color: #fff; /* Text color */
+                                text-decoration: none; /* Remove underline */
+                                border-radius: 5px; /* Rounded corners */
+                                font-weight: bold; /* Bold text */
+                                box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
+                                transition: background-color 0.3s ease; /* Smooth hover effect */
+                                position: relative;
+                                top : -545px;
+                                left : 205px;
+                    
+                    
+                            }
+                    
+                            /* Hover effect for the Buy Now link */
+                            .buy-now-link1:hover {
+                                background-color: #0056b3; /* Darker blue on hover */
+                            }
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                           .text {
+                                font-family: 'Verdana', sans-serif;
+                                font-size: 36px;
+                                color: #FF5733; /* Text color */
+                                text-align: center;
+                                background-image: linear-gradient(45deg, #ff416c, #ff4b2b); /* Gradient background */
+                                -webkit-background-clip: text;
+                                background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                text-shadow: 2px 2px 4px #333; /* Shadow effect */
+                                padding: 20px;
+                                border-radius: 10px;
+                                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                                animation: textAnimation 2s infinite alternate; /* Animation */
+                                position: relative;
+                                top : 145px;
+                                right : 158px;
+                    
+                            }
+                    
+                            @keyframes textAnimation {
+                                0% {
+                                    transform: scale(0.2);
+                                }
+                                100% {
+                                    transform: scale(0.29);
+                                }
+                            }
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                            .text1 {
+                                font-family: 'Verdana', sans-serif;
+                                font-size: 36px;
+                                color: #FF5733; /* Text color */
+                                text-align: center;
+                                background-image: linear-gradient(45deg, #ff416c, #ff4b2b); /* Gradient background */
+                                -webkit-background-clip: text;
+                                background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                text-shadow: 2px 2px 4px #333; /* Shadow effect */
+                                padding: 20px;
+                                border-radius: 10px;
+                                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                                animation: textAnimation 2s infinite alternate; /* Animation */
+                                position: relative;
+                                top : 25px;
+                                right : -25px;
+                    
+                            }
+                    
+                            @keyframes textAnimation {
+                                0% {
+                                    transform: scale(0.2);
+                                }
+                                100% {
+                                    transform: scale(0.29);
+                                }
+                            }
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                            .buy-now-link2 {
+                                display: inline-block;
+                                padding: 10px 20px;
+                                background-color: #007bff; /* Blue background color */
+                                color: #fff; /* Text color */
+                                text-decoration: none; /* Remove underline */
+                                border-radius: 5px; /* Rounded corners */
+                                font-weight: bold; /* Bold text */
+                                box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
+                                transition: background-color 0.3s ease; /* Smooth hover effect */
+                                position: relative;
+                                top : -545px;
+                                right : -265px;
+                    
+                            }
+                    
+                            /* Hover effect for the Buy Now link */
+                            .buy-now-link2:hover {
+                                background-color: #0056b3 /* Darker blue on hover */
+                            }
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                           .text2 {
+                                font-family: 'Verdana', sans-serif;
+                                font-size: 36px;
+                                color: #FF5733; /* Text color */
+                                text-align: center;
+                                background-image: linear-gradient(45deg, #ff416c, #ff4b2b); /* Gradient background */
+                                -webkit-background-clip: text;
+                                background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                text-shadow: 2px 2px 4px #333; /* Shadow effect */
+                                padding: 20px;
+                                border-radius: 10px;
+                                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                                animation: textAnimation 2s infinite alternate; /* Animation */
+                                position: relative;
+                                top : -96px;
+                                right : -190px;
+                    
+                            }
+                    
+                            @keyframes textAnimation {
+                                0% {
+                                    transform: scale(0.2);
+                                }
+                                100% {
+                                    transform: scale(0.29);
+                                }
+                            }
+                    
+                    
+                    
+                    
+                               .text3 {
+                                font-family: 'Verdana', sans-serif;
+                                font-size: 36px;
+                                color: #FF5733; /* Text color */
+                                text-align: center;
+                                background-image: linear-gradient(45deg, #ff416c, #ff4b2b); /* Gradient background */
+                                -webkit-background-clip: text;
+                                background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                text-shadow: 2px 2px 4px #333; /* Shadow effect */
+                                padding: 20px;
+                                border-radius: 10px;
+                                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                                animation: textAnimation 2s infinite alternate; /* Animation */
+                                position: relative;
+                                top : 8px;
+                                right :160px;
+                    
+                            }
+                    
+                            @keyframes textAnimation {
+                                0% {
+                                    transform: scale(0.2);
+                                }
+                                100% {
+                                    transform: scale(0.29);
+                                }
+                            }
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        .buy-now-link3 {
+                                display: inline-block;
+                                padding: 10px 20px;
+                                background-color: #007bff; /* Blue background color */
+                                color: #fff; /* Text color */
+                                text-decoration: none; /* Remove underline */
+                                border-radius: 5px; /* Rounded corners */
+                                font-weight: bold; /* Bold text */
+                                box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
+                                transition: background-color 0.3s ease; /* Smooth hover effect */
+                                position: relative;
+                                top : -360px;
+                                left : -190px;
+                    
+                    
+                            }
+                    
+                            /* Hover effect for the Buy Now link */
+                            .buy-now-link3:hover {
+                                background-color: #0056b3 /* Darker blue on hover */
+                            }
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                            .buy-now-link4 {
+                                display: inline-block;
+                                padding: 10px 20px;
+                                background-color: #007bff; /* Blue background color */
+                                color: #fff; /* Text color */
+                                text-decoration: none; /* Remove underline */
+                                border-radius: 5px; /* Rounded corners */
+                                font-weight: bold; /* Bold text */
+                                box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Drop shadow */
+                                transition: background-color 0.3s ease; /* Smooth hover effect */
+                                position: relative;
+                                top : -360px;
+                                left : 60px;
+                    
+                    
+                    
+                            }
+                    
+                            /* Hover effect for the Buy Now link */
+                            .buy-now-link4:hover {
+                                background-color: #0056b3 /* Darker blue on hover */
+                            }
+                    
+                    
+                    
+                    
+                    
+                            .text4 {
+                                font-family: 'Verdana', sans-serif;
+                                font-size: 36px;
+                                color: #FF5733; /* Text color */
+                                text-align: center;
+                                background-image: linear-gradient(45deg, #ff416c, #ff4b2b); /* Gradient background */
+                                -webkit-background-clip: text;
+                                background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                text-shadow: 2px 2px 4px #333; /* Shadow effect */
+                                padding: 20px;
+                                border-radius: 10px;
+                                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+                                animation: textAnimation 2s infinite alternate; /* Animation */
+                                position: relative;
+                                top : -106px;
+                                right :-190px;
+                    
+                            }
+                    
+                            @keyframes textAnimation {
+                                0% {
+                                    transform: scale(0.2);
+                                }
+                                100% {
+                                    transform: scale(0.29);
+                                }
+                            }
+                    
+                    
+                        }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

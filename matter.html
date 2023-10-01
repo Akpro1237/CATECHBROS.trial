@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+
+<style>
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+<body>
+    
+    
+    
+      <p class="text" height>Tripord</p>
+
+      <p class="text1" height>Audio Cable</p>
+    
+      <p class="text2" height>mic</p>
+    
+      <p class="text3" height>Ring Light</p>
+      
+      <p class="text4" height>Good Vibes LED Light</p>
+    
+
+
+    <div id="countdown" class="countdown-text"></div>
+    
+    <div id="message" style="display: none;" class="attractive-text">
+        
+        <p>For IOS: video lite</p>
+        <p>For Android: play tube</p>
+        
+       
+
+
+
+
+        </div>
+        
+
+
+    <button id="startButton" onclick="startCountdown(45)" class="attractive-button">Get App Name</button>
+
+    <script>
+        // Function to start the countdown
+        function startCountdown(seconds) {
+            var countdownElement = document.getElementById("countdown");
+            var messageElement = document.getElementById("message");
+            countdownElement.style.display = "block";
+
+            var interval = setInterval(function() {
+                countdownElement.innerHTML = "Wait For: " + seconds + " seconds";
+                seconds--;
+
+                if (seconds < 0) {
+                    clearInterval(interval); // Stop the countdown
+                    countdownElement.style.display = "none";
+                    messageElement.style.display = "block";
+                    message1Element.style.display = "block";
+                }
+            }, 1000); // Update the countdown every 1000 milliseconds (1 second)
+        }
+    </script>
+
+
+
+
+
+
+
+<img src="tripord.jpg"class="tripord" >
+
+<img src="AudioCable.jpg"class="audiocable" >
+
+<img src="mic.jpg"class="mic" >
+
+
+<img src="RingLight.jpg"class="ringlight" >
+
+<img src="Good Vibes LED Light.jpg"class="GoodWibesLED" w">
+
+
+
+
+
+<a href="https://amzn.to/3ZF4Hmf" class="buy-now-link">Buy Now </a>
+    
+    <a href="https://amzn.to/3LGlWhm" class="buy-now-link1">Buy Now </a>
+
+    <a href=" https://amzn.to/3RHNtmi" class="buy-now-link2">Buy Now </a>
+
+    <a href="https://amzn.to/3teaJyc" class="buy-now-link3">Buy Now </a>
+
+    <a href="https://amzn.to/3RFZngz" class="buy-now-link4">Buy Now </a>
+
+
+</body>
+</html>
